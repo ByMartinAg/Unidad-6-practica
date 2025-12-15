@@ -103,7 +103,7 @@ public class Main {
                     break;
 
                 case 9: // Buscar cancion
-                    System.out.println("\n━━━ BUSCAR CANCION ━━━");
+                    System.out.println("\nBUSCAR CANCION");
                     System.out.print("ID de la cancion: ");
                     int idBuscar = teclado.nextInt();
                     sistema.buscarCancion(idBuscar);
